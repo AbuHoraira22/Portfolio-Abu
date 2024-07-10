@@ -1,3 +1,10 @@
+
+ .primary-color{
+    background-color: rgba(210, 216, 247, 0.884);
+ }   
+
+
+
 .head{
     max-width: 1140px 768px;
     background-image: url(assets/Hero-bg.png);
@@ -160,10 +167,10 @@ margin: 0px 150px 0px 0px;
     color: black;}
 
     .support{background-image: url(./assets/handshake.jpg);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        padding: 150px 50px 150px 50px;
+        padding: 150px 50px 100px 50px;
         margin: 50px 50px 50px 50px;
         border-radius: 10px;
         
@@ -176,6 +183,7 @@ margin: 0px 150px 0px 0px;
         color: azure;
         text-align: center;
         font-size: xx-large;
+        margin-bottom: 150px;
     }
     .supdes{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -196,4 +204,8 @@ margin: 0px 150px 0px 0px;
     }
     .sub45 button{
         margin: 0px 0 0 900px;
+    }
+    .s2{
+        background-color: antiquewhite;
+     margin: 10px;   
     }
